@@ -1,0 +1,94 @@
+body{
+    background-color: aqua;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+.main{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+    padding: 45px;
+    position: static;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+h2{
+    font-style: none;
+    font-weight: lighter;
+}
+input[type="text"],
+input[type="email"],
+select,textarea,
+input[type="number"]{
+    text-align: center;
+    width: 160px;
+   padding: 20 10 10 20;
+   margin: 12px;
+}
+input[type="submit"].value{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+    float: none;
+}
+.tittle{
+    background-color: black;
+    height: 25px;
+    margin: 0%;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+}
+.tittle-1{
+    background-color: black;
+    margin: 0%;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: left;
+    height: 30px;
+}
+input[type="submit"]{
+    float: right;
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+}
+input[type="submit"].sign{
+    background-color: greenyellow;
+    color: black;
+}
+input[type="submit"].sign:hover{
+    background-color: green;
+}
+input[type="submit"].log{
+   background-color: lightslategray;
+   color: whitesmoke;
+}
+input[type="submit"].view{
+background-color: lightslategray;  
+color: whitesmoke;
+}
+input[type="submit"].log:hover, input[type="submit"].view:hover{
+   background-color: lightsteelblue;
+}
+input[type="submit"].log:hover, input[type="submit"].view:hover, input[type="submit"].sign:hover{
+   cursor: pointer;
+}
